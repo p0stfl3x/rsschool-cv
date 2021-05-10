@@ -1,10 +1,10 @@
 # rsschool-cv
 
-Biahanski Aliaksandr
+# Biahanski Aliaksandr
 
-mobile phone number: +375 44 714 52 62
+***mobile phone number: +375 44 714 52 62***
 
-mail: axalce0n@yandex.by
+***mail: axalce0n@yandex.by***
 
 At present I'm studying programming in Rolling Scopes school and working at an IT b2c company as a procurement manager.
 
@@ -15,6 +15,6 @@ Since I've been interested in some other paths in IT field I have a bit of under
 Speaking about programming, the act of creating something new is much more appealing to me than almost any other occupation in IT. Design shares this path but in a different way.
 I prefer mixing logic with creativity, that's why coding is so attractive to me.
 
-Skills: basic Python, basic Kotlin, basics of Agile, basics of QA, UX/UI.
-Education: ItMine UX/UI course.
-English: Upper Intermediate
+**Skills: basic Python, basic Kotlin, basics of Agile, basics of QA, UX/UI.
+Education: ItMine UX/UI.
+English: Upper Intermediate**
