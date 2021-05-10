@@ -13,4 +13,8 @@ I also like to learn new things, usually get to the core of the. In my opinion i
 
 Since I've been interested in some other paths in IT field I have a bit of understanding how things tend to work and knowing about different occupations made me want to become a software developer.
 Speaking about programming, the act of creating something new is much more appealing to me than almost any other occupation in IT. Design shares this path but in a different way.
-I prefer mix logic with creativity, that's why coding is so attractive to me.
+I prefer mixing logic with creativity, that's why coding is so attractive to me.
+
+Skills: basic Python, basic Kotlin, basics of Agile, basics of QA, UX/UI.
+Education: ItMine UX/UI course.
+English: Upper Intermediate
