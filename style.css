@@ -1,0 +1,268 @@
+/**
+ * Variables
+ */
+ :root {
+  --font-family-primary: "Roboto", sans-serif;
+  --background-color-body: rgb(23, 39, 85);
+  --background-color-shapes: rgb(248, 249, 255);
+  --text-color-primary: rgb(220, 220, 220);
+  --text-color-secondary: rgb(23, 39, 85);
+
+  --container-width: 1150px;
+  --content-padding-mobile: 1.2rem;
+  --content-padding-tablets: 3rem;
+  --content-padding-desktop: 2rem;
+}
+
+/**
+ * Base styles
+ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+}
+
+body {
+  background: var(--background-color-body);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-primary);
+  transition: filter 350ms;
+}
+
+a:hover {
+  filter: brightness(1.3);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  line-height: 1.5;
+}
+
+/**
+ * Layout
+ */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 1rem var(--content-padding-mobile);
+  color: var(--text-color-primary);
+}
+
+@media only screen and (min-width: 650px) {
+  .wrapper {
+    padding: 1.5rem var(--content-padding-tablets);
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .wrapper {
+    padding: 2rem var(--content-padding-desktop);
+  }
+}
+
+ /**
+ * Navigation
+ */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 2rem;
+  max-width: 25rem;
+  list-style-type: none;
+}
+
+/**
+ * Footer
+ */
+footer {
+  margin-top: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__item {
+  margin-bottom: 1.5rem;
+}
+
+.footer__item:last-child {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 650px) {
+  .footer {
+    flex-direction: row;
+  }
+  
+  .footer__item, .footer__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ * About
+ */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.about__photo {
+  margin: 0 auto;
+}
+
+.photo {
+  border-radius: 2rem;
+}
+
+@media only screen and (min-width: 950px) {
+  .about {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  
+  .about__description {
+    max-width: 65%;
+  }
+
+  .about__photo {
+    max-width: 35%;
+    max-height: auto;
+    margin-left: 2rem;
+  }
+
+  .photo {
+    border-radius: 2rem;
+    margin: 0 auto;
+  }
+}
+
+/**
+ * Proficiences
+ */
+.proficiencies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: var(--background-color-shapes);
+  color: var(--text-color-secondary);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+}
+
+.proficiencies__item {
+  width: 15rem;
+  margin-bottom: 2.5rem;
+}
+
+@media only screen and (min-width: 650px) {
+  .proficiencies__item {
+    width: 30rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .proficiencies {
+    flex-direction: row;
+    align-items: flex-start
+  }
+  
+  .proficiencies__item {
+    flex: 1 1 0;
+    max-width: 30%;
+    margin-bottom: 0;
+  }
+}
+
+.list-dotted {
+  padding-left: 1rem;
+}
+
+.education-list {
+  margin-bottom: 1.5rem;
+}
+
+.code-example {
+  background: var(--background-color-body);
+  padding: 1rem;
+  color: var(--text-color-primary);
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-link {
+  color: var(--text-color-secondary);
+}
+
+ /**
+ * Contacts
+ */
+.contacts {
+  text-align: center;
+}
+
+@media only screen and (min-width: 650px) {
+  .contacts {
+    text-align: start;
+  }
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.contacts-list__item {
+  list-style-type: none;
+}
