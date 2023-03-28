@@ -45,7 +45,6 @@ function disemvowel(str) {
 #### Projects:
 * [AnalyticsLandingCosmic](https://github.com/p0stfl3x/AnalyticsLandingKosmic)
 * [Plants](https://rolling-scopes-school.github.io/p0stfl3x-JSFEPRESCHOOL2022Q4/plants/)
-* [Shelter (desktop)](https://rolling-scopes-school.github.io/p0stfl3x-JSFE2023Q1/shelter/pets.html)
 
 ---
 
