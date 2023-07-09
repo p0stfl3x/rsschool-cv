@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>cv</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="#about">About me</a>
+          </li>
+
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Aleksander Bieganski</h1>
+      
+      <section id="about" class="about">
+        <div class="about__description">
+          <h2>About me:</h2>
+
+          <p>
+            I'd like to become a front-end software engineer. I've been working in IT for some years as a non-technical employee, tried learning a few paths like testing, ux-design and python\web programming, which led me to understanding that the latter fits me the most.
+          </p>
+
+          <p>
+            I enjoy creating something new using logic, rather than some artistic skills or searching for errors.
+          </p>
+
+          <p>
+            Web engineering holds a lot of opportunities in our modern fast-changing world: there's a growing range of practical uses it provides, from industrial software development to progressive web applications. That's why I've chosen Rolling Scopes School as a starting point of this journey to become a web developer.
+          </p>
+
+          <p>
+            My core strengths are: logical thinking, diligence, good soft skills and willingness to learn.
+          </p>
+        </div>
+
+        <picture class="about__photo">
+          <img 
+            class="photo"
+            width="381"
+            height="381" 
+            src="./assets/photo.png" 
+            alt="Aleksander Bieganski"
+          >
+        </picture>
+      </section>
+
+      <div id="skills" class="proficiencies">
+        <div class="proficiencies__item">
+          <h2>Skills:</h2>
+
+          <ul class="list-dotted">
+            <li>JavaScript basics</li>
+            
+            <li>Python basics</li>
+            
+            <li>HTML</li>
+            
+            <li>CSS (Bootstrap, Bulma, SASS)</li>
+            
+            <li>BEM, SMACSS</li>
+            
+            <li>Figma, Adobe PhotoShop, UX-UI design basics</li>
+            
+            <li>QA basics</li>
+            
+            <li>Git, Jira, Trello</li>
+          </ul>
+        </div>
+
+        <div class="proficiencies__item">
+          <h2>Education:</h2>
+
+          <ul class="list-dotted education-list">
+            <li>Higher (BSEU, economist)</li>
+            
+            <li>ItMine (UX/UI)</li>
+            
+            <li>Udacity (python 101)</li>
+            
+            <li>Coursera (html, css + intermediate, bootstrap, sass)</li>
+          </ul>
+
+          <h3>English: Upper Intermediate</h3>
+        </div>
+
+        <div class="proficiencies__item">
+          <h2>Code example:</h2>
+
+          <div class="code-example">
+            <code>
+              function getDecimal(n) {<br>
+                &nbsp; return Math.abs(n) % 1;<br>
+              }
+            </code>
+          </div>
+
+          <h3>Projects:</h3>
+
+          <ul class="list-dotted">
+            <li>
+              <a href="https://kossmik.onrender.com/" class="project-link" target=”_blank”
+              >AnalyticsLandingCosmic</a>
+            </li>
+
+            <li>
+              <a href="https://rolling-scopes-school.github.io/p0stfl3x-JSFEPRESCHOOL2022Q4/plants/" class="project-link" target=”_blank”
+              >RSSchool Plants 2022</a>
+            </li>
+
+            <li>
+              <a href="https://rolling-scopes-school.github.io/p0stfl3x-JSFEPRESCHOOL2022Q4/momentum/" class="project-link" target=”_blank”
+              >RSSchool Momentum 2022</a>
+            </li>
+            
+            <li>
+              <a href="https://rolling-scopes-school.github.io/p0stfl3x-JSFE2023Q1/shelter/" class="project-link" target=”_blank”
+              >RSSchool Shelter 2023</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+      
+    <footer>
+      <ul class="footer">
+        <li class="footer__item contacts">
+          <h2 id="contacts">Contacts:</h2>
+
+          <ul class="contacts-list">
+            <li class="contacts-list__item">
+              <a href="https://github.com/p0stfl3x" target=”_blank”>
+                <img
+                  width="25"
+                  src="./assets/github-logo-white.png"
+                  alt="Github">
+              </a>
+            </li>
+              
+            <li class="contacts-list__item">
+              <a href="https://discordapp.com/users/282209152628162560/" target=”_blank”>
+                <img
+                  width="25"
+                  src="./assets/discord-logo.png"
+                  alt="discord">
+              </a>
+            </li>
+            
+            <li class="contacts-list__item">
+              <a href="mailto:axalce0n@yandex.by">
+                <img
+                  width="25"
+                  src="./assets/email-icon.png"
+                  alt="email">
+              </a>
+            </li>
+            
+            <li class="contacts-list__item">
+              <a href="tel:+37533384-72-36">
+                <img
+                  width="25"
+                  src="./assets/phone-icon.png"
+                  alt="call">
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="footer__item">
+          <span>©2023 Aleksander Bieganski</span>
+        </li>
+
+        <li class="footer__item">
+          <a href="https://rs.school/js/" target=”_blank”>
+            <img
+              width="150"
+              src="./assets/rs-school-js-white.png"
+              alt="Github">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>   
+</body>
+</html>
